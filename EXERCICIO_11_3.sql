@@ -1,0 +1,6 @@
+CREATE OR REPLACE PACKAGE om_pkg_task AS 
+   FUNCTION FNC_INSERE_TAREFAS(pNOME  IN VARCHAR2,
+                               pAREA  IN VARCHAR2)
+RETURN VARCHAR;
+
+END om_pkg_task;

@@ -1,0 +1,7 @@
+DECLARE
+ VCONFIRMACAO NUMBER;
+
+BEGIN
+  om_pkg_task.FNC_INSERE_TAREFAS('ATIVIDADE 1',
+                                 'MT_11606/13TRF/E08115');
+END;
